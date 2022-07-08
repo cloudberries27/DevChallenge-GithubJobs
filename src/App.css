@@ -3,16 +3,25 @@
 
 html, body{
   background-color: #f6f7fb;
+  color: #334680;
+  font-family: 'Karla', sans-serif;
 }
 .App {
   max-width: 1000px;
   margin: auto;
+}
+.pagination{
+  justify-content: flex-end;
 }
 .material-icons{
   vertical-align: middle;
 }
 header h1{
   font-weight: normal;
+  margin: 0.5em 0 1em;
+}
+footer{
+  text-align: center;
 }
 .flex-box{
   display: flex;
@@ -43,7 +52,7 @@ form input{
   outline: none;
   border: none;
   width: inherit;
-  padding: 1em;
+  padding: 1em 5px;
 }
 form button{
   border: none;
@@ -77,7 +86,7 @@ form button{
 .location-search{
   background-color: white;
   color:#b9bdcf;
-  padding: 10px;
+  width: auto;
   border-radius: 5px;
   box-shadow: 0px 2px 5px #dadcdf;
 }
@@ -85,11 +94,9 @@ form button{
   border: none;
   outline: none;
 }
-.radio-button{
-  padding: 5px;
-}
 .radio-button input{
-  margin-right: 10px;
+  margin: 10px;
+  margin-left: 0px; 
 }
 
 
@@ -129,4 +136,104 @@ form button{
   gap: 10px;
   color: #b9bdcf;
   font-size: 14px;
+}
+
+/* JOB PAGE */
+.back-arrow{
+  color: #1e86ff
+}
+.subtitle{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #b9bdcf;
+}
+.job-link{
+  text-decoration: none;
+  border: 2px solid #1e86ff;
+  display: inline-block;
+  margin: 1em 0;
+  padding: 10px;
+}
+.job-link:hover{
+  background-color: #1e86ff;
+  color: white;
+}
+.job-page-top{
+  display: flex;
+  justify-content: space-between;
+}
+.job-page-title{
+  font-size: 28px;
+  font-weight: bold;
+}
+.more-info{
+  display: flex;
+  margin: 1em 0;
+}
+.more-info img{
+  width: 70px;
+  height: auto;
+  margin-right: 1em;
+}
+.more-info .job-location{
+  color: #b9bdcf;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1000px){
+  .App{
+    padding: 0 1em;
+  }
+  form button{
+    padding: 1em 2em;
+  }
+}
+@media screen and (max-width: 850px){
+  form button{
+    padding: 1em;
+  }
+  .location-search input{
+    max-width: 150px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .body-component{
+    flex-direction: column;
+  }
+  .filters, .jobs, .apply, .job-page{
+    width: 100%;
+  }
+  form{
+    width: 80%;
+  }
+  form input{
+    width: 60%;
+  }
+}
+@media screen and (max-width: 500px){
+  form button{
+    padding: 0.5em;
+    margin: 0;
+  }
+  .flex-box p{
+    margin: 0;
+  }
+  p.job-time{
+    width: fit-content;
+    margin: 10px 0;
+  }
+  .job-bottom{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px){
+  .job-page-top {
+    flex-direction: column;
+  }
+  .job-page-title{
+    margin:0;
+  }
+  .job-details{
+    flex-direction: column;
+  }
 }

@@ -41,6 +41,8 @@
 
 - Demo is above ^^^
 - Made with React/CSS
+- Shout out to Tux González for finding this API, I was about to use one from Germany with German jobs in the German language lol. 
+- I also joined the Discord just to ask what API everyone was using but no one apparently answers on there so I'm gonna try and answer people on there. 
 
 ### Built With
 
@@ -78,7 +80,8 @@ $ npm start
 
 - [gh-pages](https://www.npmjs.com/package/gh-pages)
 - [Material Icon](https://fonts.google.com/icons)
-- [Weather API](https://open-meteo.com/en)
+- [Remotive API](https://github.com/remotive-com/remote-jobs-api)
+- [Pagination Component](https://www.npmjs.com/package/react-paginate)
 
 ## Contact
 
