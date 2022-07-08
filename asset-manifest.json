@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/DevChallenge-GithubJobs/static/css/main.c57e0b9e.css",
+    "main.js": "/DevChallenge-GithubJobs/static/js/main.5df8b39c.js",
+    "static/media/backgroundImg.png": "/DevChallenge-GithubJobs/static/media/backgroundImg.c84275682c4b641c6db4.png",
+    "index.html": "/DevChallenge-GithubJobs/index.html",
+    "main.c57e0b9e.css.map": "/DevChallenge-GithubJobs/static/css/main.c57e0b9e.css.map",
+    "main.5df8b39c.js.map": "/DevChallenge-GithubJobs/static/js/main.5df8b39c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c57e0b9e.css",
+    "static/js/main.5df8b39c.js"
+  ]
+}
